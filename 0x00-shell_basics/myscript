@@ -2,5 +2,9 @@
 echo "enter commit msg"
 read msg
 
+echo "enter filename"
+read filename
+
+chmod +x "${filename}"
 git add .
 git commit -m "${msg}"
