@@ -1,0 +1,27 @@
+#!/bin/bash
+
+echo "#!/bin/bash" > 1-who_am_i 
+echo "#!/bin/bash" > 2-groups
+echo "#!/bin/bash" > 3-new_owner
+echo "#!/bin/bash" > 4-empty
+echo "#!/bin/bash" > 5-execute
+echo "#!/bin/bash" > 6-multiple_permissions
+echo "#!/bin/bash" > 7-everybody
+echo "#!/bin/bash" > 10-mirror_permissions
+echo "#!/bin/bash" > 11-directories_permissions
+echo "#!/bin/bash" > 12-directory_permissions
+echo "#!/bin/bash" > 13-change_group
+
+
+
+
+
+
+
+
+
+
+
+
+
+

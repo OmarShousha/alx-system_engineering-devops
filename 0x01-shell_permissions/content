@@ -1,0 +1,38 @@
+#!/bin/bash
+echo "id -un" >> 1-who_am_i
+chmod +x 1-who_am_i
+git add .
+git commit -m "1-who_am_i"
+git push
+
+echo "groups" >> 2-groups
+chmod +x 2-groups
+git add .
+git commit -m "2-groups"
+git push
+
+echo "chown betty hello" >> 3-new_owner 
+chmod +x 3-new_owner
+git add .
+git commit -m "3-new_owner"
+git push
+
+echo "touch hello" >> 4-empty
+chmod +x 4-empty
+git add .
+git commit -m "4-empty"
+git push
+
+echo "chmod u+x hello" >> 5-execute
+chmod +x 5-execute
+git add .
+git commit -m "5-execute"
+git push
+
+
+echo "chmod u+x,g+x,o+r hello" >> 6-multiple_permissions
+chmod +x 6-multiple_permissions 
+git add .
+git commit -m "6-multiple_permissions"
+git push
+
