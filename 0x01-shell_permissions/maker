@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "enter commit msg"
+read msg
+
+echo "enter fileName"
+read filename
+
+chmod +x ${filename}
+git add .
+git commit -m "${msg}"
+git push
